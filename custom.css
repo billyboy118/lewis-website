@@ -1,0 +1,53 @@
+hr.dashed {
+  border-top: 2px dashed #999;
+}
+
+hr.dotted {
+  border-top: 2px dotted #999;
+}
+
+hr.solid {
+  border-top: 2px solid #999;
+  margin: 0px;
+}
+
+
+hr.hr-text {
+position: relative;
+  border: none;
+  height: 1px;
+  background: #999;
+}
+
+hr.hr-text::before {
+  content: attr(data-content);
+  display: inline-block;
+  background: #fff;
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: #999;
+  border-radius: 30rem;
+  padding: 0.2rem 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1200px) {
+    p {
+      font-size:18px;
+    }
+}
+
+.wrapper {
+  width:100px;
+  margin:0 auto;
+  padding-top:20px;
+}
+
+#tal {
+  font-size:40px;
+  color: #333;
+  font-weight:bold;
+}
