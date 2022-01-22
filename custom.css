@@ -52,9 +52,6 @@ hr.hr-text::before {
   font-weight:bold;
 }
 
-  /* .services {
-    padding: 100px 0 130px;
-  } */
 .services .service-block.color-bg {
   background: #28ABE3;
   color: #fff;
@@ -88,5 +85,4 @@ hr.hr-text::before {
 .color-bg {
   background: #28ABE3;
   color: #fff;
-
 }
