@@ -84,3 +84,9 @@ hr.hr-text::before {
   font-size: large;
   font-weight: 500;
 }
+
+.color-bg {
+  background: #28ABE3;
+  color: #fff;
+
+}
