@@ -51,3 +51,36 @@ hr.hr-text::before {
   color: #333;
   font-weight:bold;
 }
+
+  /* .services {
+    padding: 100px 0 130px;
+  } */
+.services .service-block.color-bg {
+  background: #28ABE3;
+  color: #fff;
+}
+.services .service-block.color-bg i, .services .service-block.color-bg h3, .services .service-block.color-bg p {
+  color: #fff;
+}
+.services .service-block .service-icon {
+  margin-bottom: 30px;
+}
+.services .service-block i {
+  font-size: 75px;
+  color: #28ABE3;
+}
+.services .service-block h3 {
+  color: #333;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.services .service-block p {
+  font-size: 14px;
+  color: #666;
+}
+
+.list-text {
+  font-size: large;
+  font-weight: 500;
+}
