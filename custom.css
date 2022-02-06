@@ -86,3 +86,54 @@ hr.hr-text::before {
   background: #28ABE3;
   color: #fff;
 }
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #353333;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 600;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-details .contact-short-info {
+  margin-top: 15px;
+}
+
+.contact-details .contact-short-info li {
+  margin-bottom: 6px;
+}
+
+.map-responsive{
+
+  overflow:hidden;
+
+  padding-bottom:20%;
+
+  position:relative;
+
+  height:0;
+
+}
+
+.map-responsive iframe{
+
+  left:0;
+
+  top:0;
+
+  height:100%;
+
+  width:100%;
+
+  position:absolute;
+
+}
